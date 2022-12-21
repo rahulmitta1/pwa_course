@@ -6,15 +6,14 @@ var path = require('path');
 let mimeTypes = {
   '.html' : 'text/html',
   '.json' : 'application/json',
+  '.css' : 'text/css',
   '.js' : 'text/javascript',
   '.png': 'image/png',
-  '.jpg': 'image/jpg',
+   '.jpg': 'image/jpg',
 }
 
 function getFileType(filePath){
-  let extension = path.extname(filePath);
-  console.log(extension);
-  return mimeTypes[extension];
+  return mimeTypes[path.extname(filePath)];
 }
 
 function getFilePath(pathName){
