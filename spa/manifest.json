@@ -1,0 +1,22 @@
+{
+	"name": "Learn PWA",
+	"short_name": "PWAHut",
+	"description": "Get breaking news, politics, trending music, world events, sports scores, and the latest global news stories as they unfold - all with less data.",
+	"start_url": "/", 
+	"theme_color": "#ffffff",
+	"background_color": "#ffffff",
+	"display": "standalone",
+	"scope": "/",
+	"icons": [
+		{
+			"src": "src/images/icons/192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "src/images/icons/512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
